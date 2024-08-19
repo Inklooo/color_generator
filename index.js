@@ -12,7 +12,7 @@ function colorChange() {
   document.body.style.background = colorBody;
 
   //affichons la couleur du body en direct
-  document.body.innerHTML = `<h1>RGB : ${colorBody}</h1>`
+  document.body.innerHTML = `<h1>${colorBody}</h1>`
 };
 
 setInterval(colorChange,2000);
