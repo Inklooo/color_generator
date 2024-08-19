@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  background: black;
+  color: aliceblue;
+  height: 50px;
+  width: 260px;
+  border-radius: 5px;
+  padding: 20px;
+}
